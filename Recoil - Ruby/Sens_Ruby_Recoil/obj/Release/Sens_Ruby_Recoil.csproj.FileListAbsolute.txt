@@ -1,7 +1,0 @@
-Z:\Z-Programs\Rust\Recoil - Ruby\Sens_Ruby_Recoil\bin\Release\Sens_Ruby_Recoil.exe.config
-Z:\Z-Programs\Rust\Recoil - Ruby\Sens_Ruby_Recoil\bin\Release\Sens_Ruby_Recoil.exe
-Z:\Z-Programs\Rust\Recoil - Ruby\Sens_Ruby_Recoil\bin\Release\Sens_Ruby_Recoil.pdb
-Z:\Z-Programs\Rust\Recoil - Ruby\Sens_Ruby_Recoil\obj\Release\Sens_Ruby_Recoil.csprojAssemblyReference.cache
-Z:\Z-Programs\Rust\Recoil - Ruby\Sens_Ruby_Recoil\obj\Release\Sens_Ruby_Recoil.csproj.CoreCompileInputs.cache
-Z:\Z-Programs\Rust\Recoil - Ruby\Sens_Ruby_Recoil\obj\Release\Sens_Ruby_Recoil.exe
-Z:\Z-Programs\Rust\Recoil - Ruby\Sens_Ruby_Recoil\obj\Release\Sens_Ruby_Recoil.pdb
