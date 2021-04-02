@@ -58,31 +58,31 @@ namespace Sens_Ruby_Recoil
             switch (WeaponIndex)
             {
                 case 1: // AssaultRifle
-                    setWeaponInfo(AssaultRifle, AssaultRifleControlTime, 133, 29);
+                    setWeaponInfo("Assault Rifle", AssaultRifle, AssaultRifleControlTime, 133, 29);
                     break;
                 case 2: // LR300AssaultRifle
-                    setWeaponInfo(LR300AssaultRifle, LRControlTime, 120, 29);
+                    setWeaponInfo("LR-300 Assault Rifle", LR300AssaultRifle, LRControlTime, 120, 29);
                     break;
                 case 3: // SemiAssultRifle
-                    setWeaponInfo(SemiAssultRifle, SemiControlTime, 175, 1);
+                    setWeaponInfo("Semi Assult Rifle", SemiAssultRifle, SemiControlTime, 175, 1);
                     break;
                 case 4: // CustomSMG
-                    setWeaponInfo(CustomSMG, CustomSMGControlTime, 100, 23);
+                    setWeaponInfo("Custom SMG", CustomSMG, CustomSMGControlTime, 100, 23);
                     break;
                 case 5: // MP5A4
-                    setWeaponInfo(MP5A4, MP5A4ControlTime, 120, 29);
+                    setWeaponInfo("MP5A4", MP5A4, MP5A4ControlTime, 120, 29);
                     break;
                 case 6: // Thompson
-                    setWeaponInfo(Thompson, ThompsonControlTime, 130, 19);
+                    setWeaponInfo("Thompson", Thompson, ThompsonControlTime, 130, 19);
                     break;
                 case 7: // M92
-                    setWeaponInfo(M92, M92Time, 100, 1);
+                    setWeaponInfo("M92", M92, M92Time, 100, 1);
                     break;
                 case 8: // M39
-                    setWeaponInfo(M39, M39ControlTime, 200, 1);
+                    setWeaponInfo("M39", M39, M39ControlTime, 200, 1);
                     break;
                 case 9: // M249
-                    setWeaponInfo(M249, M249ControlTime, 120, 99);
+                    setWeaponInfo("M249", M249, M249ControlTime, 120, 99);
                     break;
             }
         }
@@ -139,8 +139,9 @@ namespace Sens_Ruby_Recoil
             }
         }
 
-        public static void setWeaponInfo(int[,] ActiveRecoilTable, double[] DelayValue, int ShootingMSValue, int AmmoValue)
+        public static void setWeaponInfo(string ActiveWeaponName, int[,] ActiveRecoilTable, double[] DelayValue, int ShootingMSValue, int AmmoValue)
         {
+            ActiveWeapon = ActiveWeaponName;
             ActiveRecoil = ActiveRecoilTable;
             Delay = DelayValue;
             ShootingMS = ShootingMSValue;
