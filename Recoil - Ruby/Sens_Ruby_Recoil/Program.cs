@@ -113,7 +113,7 @@ namespace Sens_Ruby_Recoil
                         {
                             if (!IsKeyDown(Keys.LButton)) break;
                             Smoothing(isMuzzleBoost(getShootingMS()),
-                            isMuzzleBoost(ShotDelay(i)),
+                            isMuzzleBoost(getShotDelay(i)),
                             (int)((((getRecoilX(i) + GetRandomNumber(0.0, getRandomness())) / 4) / getSensitivity()) * getScopeMulitplier() * getBarrelMultiplier()),
                             (int)((((getRecoilY(i) + GetRandomNumber(0.0, getRandomness())) / 4) / getSensitivity()) * getScopeMulitplier() * getBarrelMultiplier()));
                             mouse_event(0x0001, 0, 0, 0, UIntPtr.Zero);

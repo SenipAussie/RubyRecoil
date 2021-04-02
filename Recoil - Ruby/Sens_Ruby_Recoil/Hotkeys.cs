@@ -75,16 +75,16 @@ namespace Sens_Ruby_Recoil
                     Weapons.ChangeWeapon(9);
                     break;
                 case Keys.Left:
-                    Weapons.ChangeRandomness(-1);
+                    Weapons.setRandomness(-1);
                     break;
                 case Keys.Right:
-                    Weapons.ChangeRandomness(1);
+                    Weapons.setRandomness(1);
                     break;
                 case Keys.Up:
-                    Weapons.ChangeSensitivity(1);
+                    Weapons.setSensitivity(1);
                     break;
                 case Keys.Down:
-                    Weapons.ChangeSensitivity(-1);
+                    Weapons.setSensitivity(-1);
                     break;
                 case Keys.Add:
                     scopeIndex++;
