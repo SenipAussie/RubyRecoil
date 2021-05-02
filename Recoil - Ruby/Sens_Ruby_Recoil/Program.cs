@@ -45,7 +45,7 @@ namespace Sens_Ruby_Recoil
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(" -----------------------------------------------------------");
-            Console.Write(" Version 1.0 | Made by: Sen | Built on: 3/22/20 | Type: PUB");
+            Console.Write(" Version 1.1 | Made by: Sen | Built on: 05/01/21 | Type: PUB");
             Console.ResetColor();
         }
 

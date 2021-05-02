@@ -70,7 +70,7 @@ namespace Sens_Ruby_Recoil
                     setWeaponInfo("Custom SMG", CustomSMG, CustomSMGControlTime, 100, 23);
                     break;
                 case 5: // MP5A4
-                    setWeaponInfo("MP5A4", MP5A4, MP5A4ControlTime, 120, 29);
+                    setWeaponInfo("MP5A4", MP5A4, MP5A4ControlTime, 100, 29);
                     break;
                 case 6: // Thompson
                     setWeaponInfo("Thompson", Thompson, ThompsonControlTime, 130, 19);
